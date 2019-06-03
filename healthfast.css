@@ -1,0 +1,194 @@
+body {display: block;
+	  background-image:url(/Images/backgroundnice.jpg);
+	  font-family: Verdana, Arial, sans serif;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 20px;
+	  margin-top: 20px;
+	  width: 80%;
+	  height: 100%;
+	  box-shadow:3px 3px 3px 3px #666666;  
+      color: #221811;
+}
+
+
+
+
+header {display: block;
+	    background-color: ##e8f8f5; 
+		height: 100px;
+		text-align: center;
+		border-bottom: 2px #221811 solid;
+		background-image: url(/Images/maybelogo.jpg);
+		background-repeat: no-repeat;
+		padding: 10px 10px 30px 10px;
+}
+
+   
+nav {text-align: center;
+font-weight: bold;
+font-size: 20px;
+padding-top: 10px;
+margin: 10px 10px 10px 10px;
+}
+	  
+nav a { text-decoration: none;} 
+nav a:link {color: #FFFFFF;} 
+nav a:visited {color: #506155;}
+nav a:hover {color: #CC9933;}
+
+		 
+main { padding: 10px 10px 20px 10px;
+      margin: 10px 20px 10px 10px;
+	  background-color: #e8f8f5; 
+}
+
+
+#phone {float:right;}
+
+#jobpic {float:right;
+         width: 40%;
+		 height: 40%;
+		 
+}
+
+#homepic {float: right;
+          width: 50%;
+          height:50%;
+		  padding-bottom: 10px;
+		  margin-bottom: 10px;
+		  margin-top: 50px;}	
+		  
+#orderpic{ height: 400px;
+           width: 600px;
+           float: right; 
+		   margin-top: 20px;
+		   margin-bottom:10px;}
+
+footer {background-color: #e8f8f5;
+	    text-align: center;
+		
+		padding: 10px 10px 10px 10px;
+}
+
+
+
+		  
+table {border:#ffffff 5px solid;
+	   border-spacing: 0;
+	   font-family: Arial;
+	   padding: 0;
+font-size: 1em;
+table-layout: auto;
+}
+
+tr:nth-of-type(even) { background-color: #FFFFFF; }
+tr:first-of-type { background-color: #d0ebe8;
+					color: #000000; }
+tr:nth-of-type(odd) {background-color: #f0f3f4;}
+					
+				   
+#jobs{ background-color: #e8f8f5; 
+       font-family: Arial, sans-serif; 
+	   padding: 10px;
+	   margin-right: 500px;}
+
+.hiring { float: left; width: 100px; clear: left; 
+        text-align: right; 
+        padding-right: 10px; 
+		margin-top: 10px; }
+
+.work, textarea { margin-top: 10px; 
+                  display: block; } 
+				  
+#mysubmit { margin-left: 50px; }	
+
+
+   
+
+#mobile { display: none; }
+#desktop { display: inline; }
+
+#wrapper {background-color: #e8f8f5;}
+
+
+@media only screen and (max-width: 1024px) {
+
+body { background-image: none; }
+
+#wrapper { width: auto;
+		   min-width: 0;
+		   margin: 0;
+		   padding: 0;
+		   box-shadow: none;
+			}
+
+h1 { margin-top: 0;
+	    margin-bottom: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		font-size: 2.5em; 	}
+
+nav { float: none;
+	      width: auto;
+		  padding-top: 0;
+		  margin: 10px;
+		  font-size: 1.3em; 	}
+
+nav li  { display: inline-block; }
+
+nav a { padding: 1em; 
+	      width: 8em;
+		  font-weight: bold;
+		  border-style: none; }
+
+nav ul { padding: 0;
+	       margin: 0;}
+
+#homepic, #orderpic { margin-left: 0; 
+					  padding: 0; }
+
+#jobpic {display:none;}					  
+					  
+main { padding: 0;
+	      margin: 0;
+		  font-size: 90%; }
+}
+
+@media only screen and (max-width: 768px) {
+
+header { background-image: url(images/javajammini.jpg);
+         height: 128px; }
+
+h1 { font-size: 2em;
+	     text-align: center;
+		 padding-left: 0; }
+
+nav { margin: 0; }
+
+nav a { display: block;
+	       padding: 0.2em;
+		   width: auto;
+		   border-bottom: 1px solid #221811; }
+
+nav li { display: block; }
+
+main  { padding-top: 1px; 
+        margin-left:10px;
+		margin-right: 10px;}
+
+h2 { padding: 0.5em 0 0 0.5em;
+	    margin-right: 0.5em; }
+
+.details { padding-left: 0; padding-right: 0; }
+.floatleft { padding-left: 0.5em; padding-right: 0.5em; }
+
+#orderpic { width: 100%; height: 100%; } 
+#homepic {width: 100%; height: 100%;}
+#jobpic {display:none;}
+#mobile { display: inline; }
+#desktop { display: none; }
+#phone {display: none;}
+
+
+}
